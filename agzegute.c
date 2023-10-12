@@ -23,7 +23,7 @@ void agzegute_com(char **kemend)
 		int nk_count = 0;
 		int a;
 
-		for (a = 0; kemend[i] != NULL && nk_count < ced_arg -1; a++)
+		for (a = 0; kemend[a] != NULL && nk_count < ced_arg -1; a++)
 		{
 			lom[nk_count++] = kemend[a];
 		}
