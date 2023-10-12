@@ -13,8 +13,8 @@ int main(void)
 	while (1)
 	{
 		dixpeley_prompt();
-		wried_coms(kemend. sizeof(kemend));
-		agzegute_coms(kemend);
+		wried_com(char *kemend, sizeof(kemend));
+		agzegute_com(kemend);
 	}
 	return (0);
 }
