@@ -24,5 +24,5 @@ void wried_coms(char *kemend, size_t size)
 			exit(EXIT_FAILURE);
 		}
 	}
-	command[strcspn(kemend, "\n")] = '\0';
+	kemend[strcspn(kemend, "\n")] = '\0';
 }

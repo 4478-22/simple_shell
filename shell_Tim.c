@@ -14,7 +14,7 @@ int main(void)
 	{
 		dixpeley_prompt();
 		wried_coms(kemend, sizeof(kemend));
-		agzegute_com(&kemend);
+		agzegute_com(char (*kemend)[150]);
 	}
 	return (0);
 }
