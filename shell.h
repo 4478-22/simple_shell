@@ -9,9 +9,9 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-void cedy_print(const char *sez);
 void agzegute_com(char kemend[150]);
 void dixpeley_prompt(void);
 void wried_coms(char *kemend, size_t size);
+void cedy_print(const char *sez);
 
 #endif
